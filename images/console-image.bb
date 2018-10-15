@@ -81,8 +81,6 @@ EXTRA_TOOLS_INSTALL = " \
 "
 
 RPI_STUFF = " \
-    omxplayer \
-    raspi2fb \
     userland \
 "
 

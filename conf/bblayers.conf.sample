@@ -6,15 +6,15 @@ BBPATH = "${TOPDIR}"
 BBFILES ?= ""
 
 BBLAYERS ?= " \
-    ${HOME}/poky-sumo/meta \
-    ${HOME}/poky-sumo/meta-poky \
-    ${HOME}/poky-sumo/meta-openembedded/meta-oe \
-    ${HOME}/poky-sumo/meta-openembedded/meta-multimedia \
-    ${HOME}/poky-sumo/meta-openembedded/meta-networking \
-    ${HOME}/poky-sumo/meta-openembedded/meta-perl \
-    ${HOME}/poky-sumo/meta-openembedded/meta-python \
-    ${HOME}/poky-sumo/meta-qt5 \
-    ${HOME}/poky-sumo/meta-raspberrypi \
-    ${HOME}/poky-sumo/meta-security \
-    ${HOME}/rpi/meta-rpi \
+    ##OEROOT##/poky/meta \
+    ##OEROOT##/poky/meta-poky \
+    ##OEROOT##/meta-openembedded/meta-oe \
+    ##OEROOT##/meta-openembedded/meta-multimedia \
+    ##OEROOT##/meta-openembedded/meta-networking \
+    ##OEROOT##/meta-openembedded/meta-perl \
+    ##OEROOT##/meta-openembedded/meta-python \
+    ##OEROOT##/meta-qt5 \
+    ##OEROOT##/meta-raspberrypi \
+    ##OEROOT##/meta-security \
+    ##OEROOT##/meta-rpi \
 "
